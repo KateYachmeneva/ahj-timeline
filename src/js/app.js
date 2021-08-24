@@ -1,7 +1,4 @@
-//;
+import AppController from './appController';
 
-const root = document.getElementById('root');
-
-//const app = new (root);
-
-app.init();
+const blog = new AppController();
+blog.init();
